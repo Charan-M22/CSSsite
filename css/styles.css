@@ -20,7 +20,7 @@ h3{
 }
 .middle-container{
   width: auto;
-  height: 1000px;
+  height: 1010px;
   background-image: linear-gradient(to top,#F7EDDB ,#F7F7F7);
 }
 .bottom-container{
@@ -81,7 +81,9 @@ h3{
   height:200px;
 }
 .nav{
-  background-color: #c4dfaa !important;
+  display : flex;
+  justify-content: center;
+  background-color: #c4dfaa !important;/*this gives it more importance*/
   height: 20px;
   width: 100%;
   position: fixed;
