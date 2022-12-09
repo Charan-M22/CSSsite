@@ -8,6 +8,7 @@ h1{
   font-family: Cookie,cursive;
 }
 h2{
+  font-size: 30px;
   font-family: "Open Sans",sans-serif;
 }
 h3{
@@ -20,7 +21,7 @@ h3{
 }
 .middle-container{
   width: auto;
-  height: 1010px;
+  height: 880px;
   background-image: linear-gradient(to top,#F7EDDB ,#F7F7F7);
 }
 .bottom-container{
@@ -70,6 +71,29 @@ h3{
   height: 170px;
   border-radius: 50%;
 }
+.skill-row1{
+  display: grid;
+  grid-template-columns: 190px 500px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 170px;
+  align-items: center;
+}
+.skill1{
+  text-align: right;
+} 
+.skill-row2{
+  display: grid;
+  grid-template-columns: 500px 210px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 240px;
+  align-items: center;
+  column-gap: 5px;
+}
+.skill2{
+  text-align: left;
+}
 .contact{
   border-style: solid ;
   border-width: 2px;
@@ -79,6 +103,7 @@ h3{
 }
 .contact-me{
   height:200px;
+  margin-bottom: 3px;
 }
 .nav{
   display : flex;
